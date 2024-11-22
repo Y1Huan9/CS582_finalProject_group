@@ -24,3 +24,9 @@ DNABERT is a transformer-based model for DNA, which can identify crucial motifs 
 And DNABERT2 is the latest version of DNABERT via BPE encoding method.
 
 We hope to use DNABERT2 to detect some region that need to avoid editing.
+
+
+## File 
+
+### testing1.ipynb
+    please only read/use the DNABERT Promoter Detection fine-tune part. For this part, we add a simple network over the output layer of DNABERT2 and freeze all the parameters in DNABERT2.
